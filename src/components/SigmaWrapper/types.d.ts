@@ -1,0 +1,1 @@
+declare module "sigma/build/sigma.min";
