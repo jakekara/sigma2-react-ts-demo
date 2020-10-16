@@ -1875,7 +1875,7 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-"@yomguithereal/helpers@^1.0.0", "@yomguithereal/helpers@^1.0.1":
+"@yomguithereal/helpers@^1.0.1", "@yomguithereal/helpers@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@yomguithereal/helpers/-/helpers-1.1.1.tgz#185dfb0f88ca2beec53d0adf6eed15c33b1c549d"
   integrity sha512-UYvAq/XCA7xoh1juWDYsq3W0WywOB+pz8cgVnE1b45ZfdMhBvHDrgmSFG3jXeZSr2tMTYLGHFHON+ekG05Jebg==
@@ -4293,7 +4293,7 @@ events@^3.0.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.1.0.tgz#84279af1b34cb75aa88bf5ff291f6d0bd9b31a59"
   integrity sha512-Rv+u8MLHNOdMjTAFeT3nCjHn2aGlx435FP/sDHNaRhDEMwyI/aB22Kj2qIN8R0cw3z28psEQLYwxVKLsKrMgWg==
 
-events@^3.1.0:
+events@^3.1.0, events@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.2.0.tgz#93b87c18f8efcd4202a461aec4dfc0556b639379"
   integrity sha512-/46HWwbfCX2xTawVfkKLGxMifJYQBWMwY1mjywRtb4c9x8l5NP3KoJtnIOiL1hfdRkIuYhETxQlo62IF8tcnlg==
@@ -4979,7 +4979,7 @@ graphology-types@^0.18.0:
   resolved "https://registry.yarnpkg.com/graphology-types/-/graphology-types-0.18.0.tgz#1d470e1c342efda910bba27b2e6656a60ae47c8b"
   integrity sha512-OXd5BSWQ9Q2ePA8dvh02vI9y87r++rPRR2gntL8KKbME60g2C0frOFBFVTL0WHyJs3sNpHeZHOzIvpvpzZNPUg==
 
-graphology-utils@^1.4.0, graphology-utils@^1.6.1, graphology-utils@^1.7.0:
+graphology-utils@^1.6.1, graphology-utils@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/graphology-utils/-/graphology-utils-1.7.0.tgz#0541855ffd0e5c011fd2b9f961b769bac23845b6"
   integrity sha512-g94E5O1FTws4E81AVKnCmxinDN1KRO7Zpysqd/j7Xjy2Qjs7DOnB3XHZUaS/Yk6D74LorBp7NJY5685IEkAh6g==
@@ -9500,15 +9500,14 @@ side-channel@^1.0.2:
     es-abstract "^1.17.0-next.1"
     object-inspect "^1.7.0"
 
-sigma@^2.0.0-alpha32:
+"sigma@https://github.com/jacomyal/sigma.js.git#v2-typescript":
   version "2.0.0-alpha40"
-  resolved "https://registry.yarnpkg.com/sigma/-/sigma-2.0.0-alpha40.tgz#9c576f9de959abd7bf3ff2ebd758a750f2672b79"
-  integrity sha512-E64G8UE/jNzzdUBJln9pjKiY7ZS2eRiRqcjwPgSIGXqDK+I7r9oHaNcYkTgttH2Re5e2b4FvJvoAJ3fTEASD0w==
+  resolved "https://github.com/jacomyal/sigma.js.git#35c6dbd34f0bedf21a7d8a7083d2bc0dd8b2c559"
   dependencies:
-    "@yomguithereal/helpers" "^1.0.0"
-    events "^3.0.0"
+    "@yomguithereal/helpers" "^1.1.1"
+    events "^3.2.0"
     graphology-metrics "1.13.0"
-    graphology-utils "^1.4.0"
+    graphology-utils "^1.7.0"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
